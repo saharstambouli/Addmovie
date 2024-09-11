@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 50px 0;
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  padding-top: 20px;
+  font-weight: 400;
+}
+
+.filter-add-container {
+  display: flex;
+  align-items: center;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.add-movie-button {
+  margin-left: 10px; /* Adjust as needed */
+}
+

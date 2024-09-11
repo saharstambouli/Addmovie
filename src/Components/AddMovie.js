@@ -5,7 +5,8 @@ const AddMovie = ({ addMovie }) => {
         Title: '',
         Description: '',
         imageURL: '',
-        Rating: ''
+        Rating: '',
+        trailer: ''
     });
 
     const handleInputs = (e) => {
@@ -34,6 +35,11 @@ const AddMovie = ({ addMovie }) => {
         <div class="form-group">
             <label style={{ color: 'green' }}>Rating:</label>
             <input type="text" placeholder="Rating" name="Rating" onChange={handleInputs} />
+        </div>
+
+        <div class="form-group">
+            <label style={{ color: 'green' }}>Trailer:</label>
+            <input type="text" placeholder="Trailer" name="Trailer" onChange={handleInputs} />
         </div>
         <button onClick={() => addMovie(inputs)}>Submit</button>
     </div>

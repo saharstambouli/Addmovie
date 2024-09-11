@@ -4,10 +4,10 @@ import MovieCard from './MovieCard'
 const MovieList = ({ movies}) => {
 
   return (
-    <div className="flex flex-wrap -mx-2">
+    <div className="row gx-4">
 
       {movies.map((movie,i) => (
-        <div key={i} className="col-md-3 col-sm-12 my-3">
+        <div key={i} className="col-md-3 col-sm-12 my-3 ">
           <MovieCard {...movie} />
               </div>
               
